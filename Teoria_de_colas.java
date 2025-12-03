@@ -18,6 +18,11 @@ public class Teoria_de_colas{
                     double lambda = lector.nextDouble();
                     System.out.println("Ingrese la tasa del servicio: ");
                     double miu = lector.nextDouble();
+
+                    double p = lambda/miu;
+                    double Lq = Math.pow(lambda, 2)/(miu*(miu-lambda));
+                    double Wq = Lq/lambda;
+                    double W = (Wq+(1/miu));
             }
 
         }while (opcion!=4);
