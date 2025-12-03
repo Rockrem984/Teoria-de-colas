@@ -24,7 +24,7 @@ public class Teoria_de_colas{
                     double Wq = Lq/lambda;
                     double W = (Wq+(1/miu));
 
-                    System.out.println("Resulatdos");
+                    System.out.println("Resultados");
                     System.out.println("Utilizacion de sistema (P): "+ p);
                     System.out.println("Numero promedio de clientes en el sistema (Lq): "+Lq);
                     System.out.println("Tiempo de promedio de espera en la cola (Wq): "+Wq);
