@@ -14,11 +14,14 @@ public class Teoria_de_colas{
 
             switch(opcion){
                 case 1:
-                    System.err.println("Ingrese la tasa de llegadas: ");
+                    System.out.println("Ingrese la tasa de llegadas: ");
                     double lambda = lector.nextDouble();
+                    System.out.println("Ingrese la tasa del servicio: ");
+                    double miu = lector.nextDouble();
             }
 
         }while (opcion!=4);
+        System.out.println("Saliendo...");
 
     }
 }
