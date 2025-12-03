@@ -12,6 +12,12 @@ public class Teoria_de_colas{
             System.out.println("Opcion ");
             opcion = lector.nextByte();
 
+            switch(opcion){
+                case 1:
+                    System.err.println("Ingrese la tasa de llegadas: ");
+                    double lambda = lector.nextDouble();
+            }
+
         }while (opcion!=4);
 
     }
