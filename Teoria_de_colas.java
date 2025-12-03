@@ -1,5 +1,5 @@
 public class Colas{
-    public static void main(Stringg[] args){
-        
+    public static void main(String[] args){
+
     }
 }
