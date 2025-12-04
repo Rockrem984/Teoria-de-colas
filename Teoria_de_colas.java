@@ -101,11 +101,11 @@ public class Teoria_de_colas{
                     for(int i=1;i<=c;i++){
                         factorialC *=i;
                     }
-                    double ultimoTermino = Math.pow(lambda3/niu3, c)/(factorialC*(1-p3));
+                    double ultimoTermino = Math.pow(lambda3/miu3, c)/(factorialC*(1-p3));
 
                     double p0_c = 1.0/(suma+ultimoTermino);
 
-                    double pC =(Math.pow(lambda3/niu3, c) / factorialC)*p0_c/(1-p3);
+                    double pC =(Math.pow(lambda3/miu3, c) / factorialC)*p0_c/(1-p3);
 
                     double Lq3=(pC*p3)/(1-p3);
                     double Wq3=Lq3/lambda3;
