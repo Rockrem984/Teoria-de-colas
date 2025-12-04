@@ -105,6 +105,14 @@ public class Teoria_de_colas{
 
                     double p0_c = 1.0/(suma+ultimoTermino);
 
+                    double pC =(Math.pow(lambda3/niu3, c) / factorialC)*p0_c/(1-p3);
+
+                    double Lq3=(pC*p3)/(1-p3);
+                    double Wq3=Lq3/lambda3;
+                    double W3 = Wq3+(1/miu3);
+                    double L3 = lambda3*W3;
+
+
 
                     break;
             }
