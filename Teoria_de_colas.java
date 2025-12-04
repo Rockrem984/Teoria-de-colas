@@ -120,13 +120,14 @@ public class Teoria_de_colas{
                     System.out.println("Tiempo de promedio de espera en la cola: "+W3);
                     break;
 
-
+                case 4:
+                    System.out.println("Saliendo.....");     
 
                     break;
             }
 
         }while (opcion!=4);
-        System.out.println("Saliendo...");
+    
 
     }
 }
