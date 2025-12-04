@@ -32,7 +32,7 @@ public class Teoria_de_colas{
                     break;
 
                 case 2: 
-                    System.out.println("Ingrese la tasa de lleggadas: ");
+                    System.out.println("Ingrese la tasa de llegadas: ");
                     double lambda2 = lector.nextDouble();
                     System.out.println("Ingrese la tasa de servicio: ");
                     double miu2=lector.nextDouble();
