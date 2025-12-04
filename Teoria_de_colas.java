@@ -36,7 +36,7 @@ public class Teoria_de_colas{
                     double lambda2 = lector.nextDouble();
                     System.out.println("Ingrese la tasa de servicio: ");
                     double miu2=lector.nextDouble();
-                    System.out.println("Ingrese la caacidad del sistema: ");
+                    System.out.println("Ingrese la capacidad del sistema: ");
                     int K=lector.nextInt();
 
                     if(K<=0){
