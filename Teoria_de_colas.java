@@ -97,6 +97,13 @@ public class Teoria_de_colas{
                         }
                         suma += termino/factorial;
                     }
+                    long factorialC=1;
+                    for(int i=1;i<=c;i++){
+                        factorialC *=i;
+                    }
+                    double ultimoTermino = Math.pow(lambda3/niu3, c)/(factorialC*(1-p3));
+
+                    double p0_c = 1.0/(suma+ultimoTermino);
 
 
                     break;
