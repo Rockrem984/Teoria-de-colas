@@ -81,7 +81,22 @@ public class Teoria_de_colas{
                     double miu3=lector.nextDouble();
                     System.out.println("Ingrese el numero de servidores: ");
                     int c=lector.nextInt();
-                    
+
+                    double p3=lambda3/(c*miu3);
+                    if (p3>=1){
+                    System.out.println("El sistema es inestable: ");
+                    break; 
+                       }
+                    double suma= 0;
+                    for (int n =0;n<c;n++){
+                        double termino = Math.pow(lambda3/miu3, n);
+                        long factorial = 1;
+                        for(int i=1;i<=n;i++){
+                            factorial *=i;
+
+                        }
+                        suma += termino/factorial;
+                    }
 
 
                     break;
