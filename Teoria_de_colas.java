@@ -112,6 +112,14 @@ public class Teoria_de_colas{
                     double W3 = Wq3+(1/miu3);
                     double L3 = lambda3*W3;
 
+                    System.out.println("Resultados");
+                    System.out.println("Utilizacion: "+p3);
+                    System.out.println("Probabilidad de que el sistema este vacio: "+p0_c);
+                    System.out.println("Numero de promedio de clientes en la cola: "+Lq3);
+                    System.out.println("Numero de promedio de clientes en el sistema: "+L3);
+                    System.out.println("Tiempo de promedio de espera en la cola: "+W3);
+                    break;
+
 
 
                     break;
