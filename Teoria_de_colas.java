@@ -31,7 +31,7 @@ public class Teoria_de_colas{
                     System.out.println("Tiempo total en el sistema (W): "+W);
                     break;
 
-                    case 2: 
+                case 2: 
                     System.out.println("Ingrese la tasa de lleggadas: ");
                     double lambda2 = lector.nextDouble();
                     System.out.println("Ingrese la tasa de servicio: ");
@@ -74,7 +74,15 @@ public class Teoria_de_colas{
                     System.out.println("Tiempo total en el sistema: "+w1);
                     break;
 
-                    case 3:
+                case 3:
+                    System.out.println("Ingrese la tasa de llegadas: ");
+                    double lambda3=lector.nextDouble();
+                    System.out.println("Ingrese la tasa de servicio: ");
+                    double miu3=lector.nextDouble();
+                    System.out.println("Ingrese el numero de servidores: ");
+                    int c=lector.nextInt();
+                    
+
 
                     break;
             }
