@@ -61,7 +61,17 @@ public class Teoria_de_colas{
                     double lambdaEf = lambda2*(1-pk);
 
                     //siguientes calculos
+                    double w1=L/lambdaEf;
+                    double Lq2=L-(lambdaEf/miu2);
+                    double Wq2=Lq2/lambdaEf;
 
+                    //resultados
+                    System.out.println("Resultados");
+                    System.out.println("Utilizacion del sistema: "+p2);
+                    System.out.println("Probabilidad de que el sistema este vacio: "+P0);
+                    System.out.println("Probabilidad de que el sistema este lleno: "+pk);
+                    System.out.println("Numero promedio de clientes en el sistema: "+L);
+                    System.out.println("Tiempo total en el sistema: "+w1);
                     break;
 
                     case 3:
