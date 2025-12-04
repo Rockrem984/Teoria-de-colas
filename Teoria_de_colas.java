@@ -45,7 +45,23 @@ public class Teoria_de_colas{
                     double p2=lambda2/miu2;
 
                     double P0;
-                    
+                    if(p2==1.0){
+                        P0=1.0/(K+1);
+                    }else{
+                        P0=(1-p2)/(1-Math.pow(p2, K+1));
+                    }
+                    double pk=P0*Math.pow(p2, K);
+
+                    double L;
+                    if(p2==1.0){
+                        L=K/2.0;
+                    }else{
+                      L=p2*(1-(K+1)*Math.pow(p2, K)+ K*Math.pow(p2, K+1))/((1-p2)*(1-Math.pow(p2, K+1)));  
+                    }
+                    double lambdaEf = lambda2*(1-pk);
+
+                    //siguientes calculos
+
                     break;
 
                     case 3:
