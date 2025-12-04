@@ -31,8 +31,21 @@ public class Teoria_de_colas{
                     System.out.println("Tiempo total en el sistema (W): "+W);
                     break;
 
-                    case 2:
+                    case 2: 
+                    System.out.println("Ingrese la tasa de lleggadas: ");
+                    double lambda2 = lector.nextDouble();
+                    System.out.println("Ingrese la tasa de servicio: ");
+                    double miu2=lector.nextDouble();
+                    System.out.println("Ingrese la caacidad del sistema: ");
+                    int K=lector.nextInt();
 
+                    if(K<=0){
+                        System.out.println("Error: K debe ser mayor que 0");
+                    }
+                    double p2=lambda2/miu2;
+
+                    double P0;
+                    
                     break;
 
                     case 3:
